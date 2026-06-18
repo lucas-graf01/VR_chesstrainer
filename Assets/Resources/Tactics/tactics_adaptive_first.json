@@ -1,0 +1,187 @@
+{
+  "Items": [
+
+   
+    {
+      "id": 1,
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "solution": ["e2-e4"],
+      "hints": [
+        "Achte auf die schwachen Felder in der Nähe des gegnerischen Königs"
+       
+      ],
+      "difficulty": "easy",
+      "mode": "adaptive"
+    },
+    {
+      "id": 2,
+      "fen": "2r3kr/pp1b1ppp/1qp3n1/n3p1N1/NB2P3/P2P3P/QPP2bP1/1K1R1B1R w - - 0 1",
+      "solution": ["a2-f7"],
+      "hints": [
+        "Achte auf die schwachen Felder in der Nähe des gegnerischen Königs"
+      ],
+      "difficulty": "easy",
+      "mode": "adaptive"
+    },
+    {
+      "id": 3,
+      "fen": "2r2rk1/pp1b1Npp/1qp5/n3p3/2Q1P2n/P1NP3P/1PP2bP1/2BRRB1K w - - 0 1",
+      "solution": ["f7-h6", "g8-h8", "c4-g8", "f8-g8", "h6-f7"],
+      "hints": [
+        "Untersuche alle möglichen Schachgebote",
+        "",
+        "Gibt es ein taktisches Motiv, das ein Opfer rechtfertigt?",
+        "",
+        "Such nach einem schwachen Feld"
+      ],
+      "difficulty": "easy",
+      "mode": "adaptive"
+    },
+
+    {
+      "id": 4,
+      "fen": "1knrr3/8/pPp3pb/5p1p/1NNpp1nP/B2P2P1/4PPR1/1R1K4 w - - 0 1",
+      "solution": ["b4-c6", "b8-b7", "c4-a5", "b7-a8", "b6-b7"],
+      "hints": [
+        "Überprüfe alle möglichen Schach- und Schlaggebote",
+        "",
+        "Ist ein Mattnetz erkennbar?",
+        "",
+        "Welche Fluchtfelder hat der schwarze König noch?"
+      ],
+      "difficulty": "medium",
+      "mode": "adaptive"
+    },
+    {
+      "id": 5,
+      "fen": "r4r1k/pbp1RPpp/1p6/3p2N1/3P4/2P4P/P1P2QP1/5RK1 w - - 0 1",
+      "solution": ["f2-f5", "g7-g6", "f5-f6"],
+      "hints": [
+        "Suche nach Mattdrohungen, dadurch entstehen Schwächen im gegnierischen Lager",
+        "",
+        "Gibt es schwache und ungedeckte Felder in der Nähe des gegnerischen Königs?"
+      ],
+      "difficulty": "medium",
+      "mode": "adaptive"
+    },
+
+    {
+      "id": 6,
+      "fen": "r2q3r/5p1k/bp2pPp1/p2p3P/6N1/3Q1N2/P4P2/R4K1R w - - 0 1",
+      "solution": ["h5-g6", "h7-g8", "h1-h8", "g8-h8", "g6-g7", "h8-g8", "g4-h6"],
+      "hints": [
+        "Achte auf alle Schach und Schlagzüge",
+        "",
+        "Suche nach forcierten Zügen, die zu einem Matt führen",
+        "",
+        "Untersuche alle möglichen Schachgebote",
+        "",
+        "Hat der gegnerische König noch mögliche Fluchtfelder?"
+      ],
+      "difficulty": "hard",
+      "mode": "adaptive"
+    },
+    {
+      "id": 7,
+      "fen": "kbK5/pp6/1P6/7R/N7/8/8/6B1 w - - 0 1",
+      "solution": ["h5-a5", "a7-a6", "a5-a6", "b7-a6", "b6-b7"],
+      "hints": [
+        "Suche nach forcierten Zügen, die zu einem Matt führen",
+        "",
+        "Ist ein Mattnetz um den gegnerischen König erkennbar?",
+        "",
+        "Hat der gegnerische König von Fluchtfelder?"
+      ],
+      "difficulty": "hard",
+      "mode": "adaptive"
+    },
+  {
+      "id": 8,
+      "fen": "3qkbr1/pppbp3/5p2/n5p1/3pPr1p/P1NPn2P/1PP2pP1/R1BQRB1K w - - 0 1",
+      "solution": ["d1-h5", "g8-g6", "h5-g6"],
+      "hints": [
+        "Achte auf die schwachen Felder in der Nähe des gegnerischen Königs",
+        "",
+        "Suche nach ungedeckten Figuren"
+      ],
+      "difficulty": "easy",
+      "mode": "static"
+    },
+     {
+      "id": 9,
+      "fen": "3rkb1r/ppq5/2pp1p2/2n1p1pb/2NnP2p/3P1N1P/PPP1BPP1/R1BQK2R w KQ - 0 1",
+      "solution": ["f3-d4", "h5-e2", "d4-e2"],
+      "hints": [
+        "Gibt es hier ein taktisches Motiv, was zum Figurengewinn führt?",
+        "",
+        "Überprüfe wie man den Läufer zurückschlägt"
+      ],
+      "difficulty": "easy",
+      "mode": "static"
+    },
+
+  
+     {
+      "id": 10,
+      "fen": "2r2rk1/pp1b1Npp/1qp5/n3p3/2Q1P2n/P1NP3P/1PP2bP1/2BRRB1K w - - 0 1",
+      "solution": ["f7-h6", "g8-h8", "c4-g8", "f8-g8", "h6-f7"],
+      "hints": [
+       "Untersuche alle möglichen Schachgebote",
+        "",
+       "Gibt es ein taktisches Motiv, das ein Opfer rechtfertigt?",
+        "",
+       "Such nach einem schwachen Feld"
+      ],
+      "difficulty": "medium",
+      "mode": "static"
+    },
+
+   
+    {
+      "id": 11,
+      "fen": "2r5/1p2qn1R/p1n1pkp1/3p4/3P4/2PBP3/PP6/1K5R w - - 0 1",
+      "solution": ["h1-f1", "f6-g5", "f1-g1","g5-f6", "g1-g6"],
+      "hints": [
+        "Suche nach forcierten Zügen, die zu einem Matt führen",
+        "",
+        "Ist ein MAttnetz um den gegnerischen König erkennbar?",
+        "",
+        "Gibt es schwache Felder um den König herum?"
+      ],
+      "difficulty": "medium",
+      "mode": "static"
+    },
+
+    {
+      "id": 12,
+      "fen": "3q1rk1/pp1rbpp1/2p3n1/2n1p1N1/2N1P2R/PQ6/1PP1BPP1/1K5R w - - 0 1",
+      "solution": ["h4-h8", "g6-h8", "h1-h8", "g8-h8", "b3-h3", "h8-g8", "h3-h7"],
+      "hints": [
+        "Räume die H-Linie",
+        "",
+        "Gibt es ein taktisches Motive, das ein Figurenopfer rechtfertigt?",
+        "",
+        "Welche Figur ist noch nicht Teil des Angriffs?",
+        "",
+        "Achte auf die Felder in der Nähe des Königs"
+      ],
+      "difficulty": "hard",
+      "mode": "static"
+    },
+     {
+      "id": 13,
+      "fen": "2r3k1/pp3ppp/2p5/2r1p3/4P2q/P2R1Q2/1PP2PP1/1K1R4 w - - 0 1",
+      "solution": ["f3-g4", "h4-g4", "d3-d8", "c8-d8", "d1-d8"],
+      "hints": [
+        "Gibt es eine überlastete gegnerische Figur?",
+        "",
+        "Achte auf die schwache gengerische Grundreihe",
+        "",
+        "überprüfe alle möglichen Schach und Schlagzüge"
+      ],
+      "difficulty": "hard",
+      "mode": "static"
+    }
+
+  ]
+}
